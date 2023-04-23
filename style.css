@@ -14,15 +14,16 @@ body
   border-bottom: 3px solid orange;
   z-index: 2;
 }
-.logo{ width: 40px; background-color: blue;}
+.logo{ height: 40px; background-color: blue;}
 .form-control
 {
   margin-top: 9px;
   margin-left: 30px;
-  border: 1px solid orange;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border: 1px solid orange !important;
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  box-shadow: none !important;
 }
 
