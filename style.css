@@ -26,4 +26,16 @@ body
   border-bottom-right-radius: 0 !important;
   box-shadow: none !important;
 }
-
+.input-group-text{
+  background: orange;
+  border: 1px solid orange;
+  margin: 8.5px 10px 3px 0;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-right-radius: 20 !important;
+  border-bottom-right-radius: 20 !important;
+  cursor: pointer;
+}
+.serach-box{
+  display: inline-flex; width: 60%;
+}
